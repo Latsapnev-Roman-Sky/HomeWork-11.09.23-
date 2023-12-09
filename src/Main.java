@@ -56,7 +56,6 @@ public class Main {
         System.out.println("За месяц машина произвела "+ performance1Month +" штук бутылок");
 
         //Task 5
-        byte totalPaints = 120;
         byte whitePaints1Classroom = 2;
         byte brownPaints1Classroom = 4;
         int totalClassroom = 120 / (whitePaints1Classroom + brownPaints1Classroom);
@@ -64,6 +63,22 @@ public class Main {
         int totalBrownPaints = totalClassroom * brownPaints1Classroom;
 
         System.out.println("В школе, где "+ totalClassroom +" классов, нужно "+ totalWhitePaints +" банок белой краски и "+ totalBrownPaints +" банок коричневой краски.");
+
+        //Task 6
+        short bananasWeight = 5 * 80;
+        short milkWeight = (200/100)*105;
+        short iceCreamWeight = 2*100;
+        short eggsWeight = 4*70;
+        int totalWeightGram = bananasWeight + milkWeight + iceCreamWeight + eggsWeight;
+        double totalWeightKilogram = (double) totalWeightGram / 1000;
+
+        System.out.println("Вес спортзавтрака в граммах = "+ totalWeightGram);
+        System.out.println("Вес спортзавтрака в киллограммах = "+ totalWeightKilogram);
+
+
+
+
+
 
 
 
