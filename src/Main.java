@@ -43,6 +43,19 @@ public class Main {
 
         System.out.println("На каждого ученика рассчитано "+ papersOneSchoolboy +" листов бумаги");
 
+        //Task 4
+        byte performance2Minute = 16;
+        int performance1Minute = performance2Minute / 2;
+        int performance20Minute = performance1Minute * 20;
+        int performance1Day = performance1Minute * (60*24);
+        int performance3Day = performance1Day * 3;
+        int performance1Month = performance3Day * 10;
+
+        System.out.println("За 20 минут машина произвела "+ performance20Minute +" штук бутылок");
+        System.out.println("За сутки машина произвела "+ performance1Day +" штук бутылок");
+        System.out.println("За 3 дня машина произвела "+ performance3Day +" штук бутылок");
+        System.out.println("За месяц машина произвела "+ performance1Month +" штук бутылок");
+
 
 
     }
